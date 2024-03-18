@@ -1,6 +1,12 @@
+* {
+    border: 1px solid red;
+}
 body {
     color: steelblue;
     font-family: sans-serif;
+}
+h1.header-title {
+    padding: 20px;
 }
 
 main {
@@ -25,4 +31,42 @@ main > h3 {
 main > p {
     background-color: hsl(56, 62%, 85%);
     padding: 20px;
+}
+p.opacity-20 {
+    opacity: 20%
+}
+p.opacity-50 {
+    opacity: 50%
+}
+p.opacity-100 {
+    opacity: 100%
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #11c5c6;
+    overflow: auto;
+    border-width: 10px 10px 10px 10px;
+    border-style: dashed;
+    border-color: #919191 #111111 #4ee717 #00c8eb;
+}
+.box.center {
+    margin: 10px auto;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: #fbdd1c;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.content {
+    max-width: 800px;
+    height: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: deeppink;
 }
